@@ -1,0 +1,243 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    background-image: url(img/orqa\ fon.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: black; */
+    width: 100%;
+    height: 100vh;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    backdrop-filter: blur(5px);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+ul li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    transition: .5s;
+    font-weight: 500;
+    /* border: 1px solid #fff; */
+    border-radius: 6px;
+    margin: 5px 15px;
+    text-decoration: none;
+}
+.line{
+    width: 50%;
+    height: 3px;
+    background-color: #ffc300;
+    margin: auto;
+    display: none;
+    border-radius: 10px;
+    margin-top: -5px;
+}
+ul li a:hover .line {
+    display: block;
+}
+ul {
+    display: flex;
+    margin-right: 100px;
+    /* border: 1px solid red; */
+    list-style: none;
+}
+h1 {
+    margin: 15px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 80px;
+    font-size: 30px;
+    display: block;
+}
+h1 span{
+    color: #ffc300;
+}
+label #btn,
+#cancel {
+    position: absolute;
+    font-size: 35px;
+    top: 30px;
+    right: 30px;
+    display: none;
+}
+#check {
+    display: none;
+}
+
+/* menu qismi */
+.menu{
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu-one{
+    width: calc(100% / 2 - 20px );
+   /* border: 1px solid blue; */
+}
+.menu-one h2{
+    color: white;
+    font-size: 65px;
+    margin-bottom: 0;
+    text-shadow: 15px 10px 5px rgba(0, 0, 0, 0.459);
+}
+.menu-one h2 span{
+    color: #ffc300;
+}
+.menu-one p{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 25px;
+    text-shadow: 15px 10px 5px rgba(0, 0, 0, 0.459);
+}
+
+.menu-one button{
+    width: 150px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(12, 192, 12);
+    color: white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.459);
+}
+.menu-two{
+    width: calc(100% / 2 - 20px );
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.menu-two img{
+    width: 100%;
+    filter: drop-shadow(15px 15px 2px rgba(0, 0, 0, 0.616)); 
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 1px solid yellow; */
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    ul{
+        top: 0px;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: white;
+        display: block;
+        right: -100%;
+        transition: 1s;
+        padding-top: 50px;
+        
+    }
+
+    ul li a{
+        margin: 20px 20px;
+        border: 1px solid #00183a;
+    }
+    ul li a:hover{
+        background-color: #ffc300;
+        scale: 1;
+    }
+
+    label #btn {
+        display: inline-block;
+        color: #00183a;
+        margin-top: -10px;
+    }
+
+    #check:checked~ul {
+        right: -100px;
+    }
+
+    #check:checked~label #btn {
+        display: none;
+    }
+
+    #check:checked~label #cancel {
+        display: block;
+        color: #00183a;
+        z-index: 1;
+        margin-top: -10px;
+    }
+
+    header{
+        position: relative;
+        z-index: 5;
+    }
+
+    nav h1{
+        margin-left: -50px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 420px) {
+    ul {
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: white;
+        display: block;
+        right: -100%;
+        transition: 1s;
+    }
+
+    /* h1 {
+        font-size: 25px;
+        margin-left: 50px;
+    } */
+
+    #h1{
+        margin-left: 0px;
+    }
+
+    label #btn {
+        display: inline-block;
+        margin-top: -15px;
+        color: black;
+    }
+
+    #check:checked~ul {
+        right: -100px;
+    }
+
+    #check:checked~label #btn {
+        display: none;
+        
+    }
+
+    #check:checked~label #cancel {
+        display: block;
+        color: black;
+        z-index: 1;
+        margin-top: -15px;
+    } 
+}
