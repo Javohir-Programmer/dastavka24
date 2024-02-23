@@ -1,3 +1,7 @@
+*{
+    font-family: cursive;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -145,9 +149,10 @@ label #btn,
 
 .menu-one h2 {
     color: white;
-    font-size: 65px;
+    font-size: 60px;
     margin-bottom: 0;
-    text-shadow: 15px 10px 5px rgba(0, 0, 0, 0.459);
+    text-shadow: 10px 5px 5px rgba(0, 0, 0, 0.459);
+    font-family: cursive;
 }
 
 .menu-one h2 span {
@@ -160,6 +165,7 @@ label #btn,
     margin-top: 15px;
     line-height: 25px;
     text-shadow: 15px 10px 5px rgba(0, 0, 0, 0.459);
+    font-family: cursive;
 }
 
 .menu-one button {
@@ -173,6 +179,7 @@ label #btn,
     background: rgb(12, 192, 12);
     color: white;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.459);
+    font-family: cursive;
 }
 
 .menu-two {
@@ -185,7 +192,7 @@ label #btn,
 
 .menu-two img {
     width: 100%;
-    filter: drop-shadow(15px 15px 2px rgba(0, 0, 0, 0.616));
+    filter: drop-shadow(25px 5px 5px rgba(0, 0, 0, 0.616));
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -235,7 +242,7 @@ label #btn,
     display: flex;
     justify-content: flex-start;
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     top: -100px;
 }
 
@@ -252,7 +259,7 @@ label #btn,
 .title{
     width: 85%;
     margin: -100px auto 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .title h2{
@@ -264,6 +271,30 @@ label #btn,
 .title h2 span{
     color: #ffc300;
 }
+
+/* foods */
+
+.foods{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.foods-one{
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background: linear-gradient(45deg, blue, red);
+}
+
+
 
 
 
@@ -372,6 +403,12 @@ label #btn,
     .title h2{
         font-size: 50px;
     }
+
+
+    /* foods */
+    .foods{
+        grid-template-columns: auto auto;
+    }
 }
 
 
@@ -432,7 +469,7 @@ label #btn,
     }
 
     .menu-one h2{
-        font-size: 45px;
+        font-size: 40px;
     }
     .men p{
         font-size: 16px;
@@ -478,10 +515,15 @@ label #btn,
         margin-left: -50px;
     }
 
-     /* title */
+    /* title */
 
-     .title h2{
-        font-size: 38px;
+    .title h2{
+        font-size: 30px;
+    }
+
+    /* foods */
+    .foods{
+        grid-template-columns: auto;
     }
 }
 
