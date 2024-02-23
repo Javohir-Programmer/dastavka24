@@ -91,6 +91,17 @@ label #btn,
     display: none;
 }
 
+#cart{
+    font-size: 35px;
+    color: #ffc300;
+}
+
+#cart2{
+    font-size: 35px;
+    color: #ffc300;
+    display: none;
+}
+
 /* icon rasmlar */
 
 #barg-2 {
@@ -288,7 +299,7 @@ label #btn,
 .foods-one{
     max-width: 300px;
     height: auto;
-    border: 3px solid yellow;
+    border: 3px solid #ffc300;
     border-radius: 20px;
     background: #ffc300;
     overflow: hidden;
@@ -363,6 +374,16 @@ label #btn,
         z-index: 1;
         margin-top: -10px;
     }
+
+    #cart{
+        display: none;
+    }
+
+    #cart2{
+        display: block;
+        margin-right: 30px;
+    }
+
 
     header {
         position: relative;
@@ -449,7 +470,7 @@ label #btn,
 
     label #btn {
         display: inline-block;
-        margin-top: -15px;
+        margin-top: -10px;
         color: #ffc300;
     }
 
@@ -469,6 +490,12 @@ label #btn,
         margin-top: -15px;
     }
 
+    #cart2{
+        display: block;
+        margin-right: 70px;
+        padding:  20px 0;
+    }
+
     #barg-2 {
         
         width: 200px;
@@ -486,9 +513,6 @@ label #btn,
     }
     .men p{
         font-size: 16px;
-    }
-    .barg6{
-
     }
 
     #barg6{
