@@ -405,3 +405,10 @@ label #btn,
         padding: 0;
     }
 }
+
+
+@media screen and (max-width: 380px){
+    #barg6{
+        margin-top: 290px;
+    }
+}
