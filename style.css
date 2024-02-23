@@ -99,12 +99,16 @@ label #btn,
     filter: drop-shadow(25px 35px 5px rgba(0, 0, 0, 0.616));
 }
 
+.barg6{
+    border: 1px solid red;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 60px;
+}
+
 #barg6 {
-    position: absolute;
-    /* border: 1px solid red; */
     width: 250px;
-    right: 0px;
-    top: 520px;
     filter: blur(0.6px);
     transform: rotate(-);
     filter: drop-shadow(25px 35px 5px rgba(0, 0, 0, 0.616));
@@ -134,7 +138,8 @@ label #btn,
 
 .menu-one {
     width: calc(100% / 2 - 20px);
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
+    margin: 0;
 }
 
 .menu-one h2 {
@@ -171,7 +176,7 @@ label #btn,
 
 .menu-two {
     width: calc(100% / 2 - 20px);
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,8 +314,11 @@ label #btn,
         width: 80%;
     }
 
+    .barg6{
+        top: 50px;
+    }
+
     #barg6 {
-        top: 950px;
         width: 200px;
         filter: drop-shadow(25px 25px 5px rgba(0, 0, 0, 0.616));
     }
@@ -380,8 +388,12 @@ label #btn,
     .men p{
         font-size: 16px;
     }
+    .barg6{
+        
+    }
+
     #barg6{
-        top: 780px;
+        top: 0px;
         width: 150px;
         
     }
