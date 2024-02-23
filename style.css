@@ -235,7 +235,7 @@ label #btn,
     display: flex;
     justify-content: flex-start;
     position: relative;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     top: -100px;
 }
 
@@ -245,6 +245,28 @@ label #btn,
     margin-left: -70px;
     filter: drop-shadow(25px 15px 8px rgba(0, 0, 0, 0.616));
 }
+
+
+/* title  */
+
+.title{
+    width: 85%;
+    margin: -100px auto 0;
+    border: 1px solid red;
+}
+
+.title h2{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+
+.title h2 span{
+    color: #ffc300;
+}
+
+
+
 
 
 
@@ -279,7 +301,7 @@ label #btn,
 
     label #btn {
         display: inline-block;
-        color: #fff;
+        color: #ffc300;
         margin-top: -10px;
     }
 
@@ -344,6 +366,12 @@ label #btn,
     .box-line-one{
         width: calc(100% / 3 - 50px);
     }
+
+    /* title */
+
+    .title h2{
+        font-size: 50px;
+    }
 }
 
 
@@ -372,7 +400,7 @@ label #btn,
     label #btn {
         display: inline-block;
         margin-top: -15px;
-        color: wheat;
+        color: #ffc300;
     }
 
     #check:checked~ul {
@@ -448,6 +476,12 @@ label #btn,
     .pamidor3 img{
         width: 200px;
         margin-left: -50px;
+    }
+
+     /* title */
+
+     .title h2{
+        font-size: 38px;
     }
 }
 
