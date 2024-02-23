@@ -1,8 +1,9 @@
 body {
     padding: 0;
     margin: 0;
-    background: url(img/orqa\ fon\ 2.jpg);
-    background-repeat: no-repeat;
+    /* background: url(img/orqa\ fon\ 2.jpg); */
+    background: rgb(12, 12, 12);
+    
 
 }
 
@@ -100,7 +101,7 @@ label #btn,
 }
 
 .barg6{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: end;
     position: relative;
@@ -111,7 +112,7 @@ label #btn,
     width: 250px;
     filter: blur(0.6px);
     transform: rotate(-);
-    filter: drop-shadow(25px 35px 5px rgba(0, 0, 0, 0.616));
+    filter: drop-shadow(35px 25px 10px rgba(0, 0, 0, 0.616));
 }
 
 #qol {
@@ -138,7 +139,7 @@ label #btn,
 
 .menu-one {
     width: calc(100% / 2 - 20px);
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0;
 }
 
@@ -176,7 +177,7 @@ label #btn,
 
 .menu-two {
     width: calc(100% / 2 - 20px);
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,7 +229,22 @@ label #btn,
     padding: 0;
 }
 
+/* pamidor3 */
 
+.pamidor3{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    /* border: 1px solid red; */
+    top: -100px;
+}
+
+.pamidor3 img{
+    width: 350px;
+    /* transform: rotate(45deg); */
+    margin-left: -70px;
+    filter: drop-shadow(25px 15px 8px rgba(0, 0, 0, 0.616));
+}
 
 
 
@@ -295,6 +311,7 @@ label #btn,
 
     .menu {
         flex-wrap: wrap-reverse;
+        width: 90%;
     }
 
     .menu-one {
@@ -382,6 +399,10 @@ label #btn,
         left: -50px;
     }
 
+    .menu{
+        width: 90%;
+    }
+
     .menu-one h2{
         font-size: 45px;
     }
@@ -389,7 +410,7 @@ label #btn,
         font-size: 16px;
     }
     .barg6{
-        
+
     }
 
     #barg6{
@@ -416,6 +437,17 @@ label #btn,
         font-size: 19px;
         margin: 0;
         padding: 0;
+    }
+
+    /* pamidor3 */
+
+    .pamidor3{
+        top: -80px;
+    }
+
+    .pamidor3 img{
+        width: 200px;
+        margin-left: -50px;
     }
 }
 
