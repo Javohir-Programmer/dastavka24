@@ -310,7 +310,7 @@ label #btn,
     }
 
     #barg6 {
-        margin-top: 420px;
+        top: 950px;
         width: 200px;
         filter: drop-shadow(25px 25px 5px rgba(0, 0, 0, 0.616));
     }
@@ -381,8 +381,9 @@ label #btn,
         font-size: 16px;
     }
     #barg6{
-        margin-top: 250px;
+        top: 780px;
         width: 150px;
+        
     }
 
     /* box line */
@@ -407,8 +408,3 @@ label #btn,
 }
 
 
-@media screen and (max-width: 380px){
-    #barg6{
-        margin-top: 290px;
-    }
-}
