@@ -340,6 +340,8 @@ label #btn,
         right: -100%;
         transition: 1s;
         padding-top: 50px;
+        padding-left: 0;
+
 
     }
 
@@ -347,6 +349,7 @@ label #btn,
         margin: 20px 20px;
         border: 1px solid #00183a;
         color: black;
+
     }
 
     ul li a:hover {
