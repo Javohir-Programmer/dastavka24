@@ -449,6 +449,10 @@ label #btn,
         margin-top: -10px;
     }
 
+    a{
+        text-decoration: none;
+    }
+
     #cart{
         display: none;
     }
