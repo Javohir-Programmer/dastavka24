@@ -254,7 +254,7 @@ label #btn,
     display: flex;
     justify-content: flex-start;
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     top: -400px;
 }
 
@@ -270,7 +270,7 @@ label #btn,
 
 .title{
     width: 85%;
-    margin: -200px auto 0;
+    margin: -100px auto 0;
     /* border: 1px solid red; */
 }
 
